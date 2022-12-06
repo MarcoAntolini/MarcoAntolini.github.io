@@ -6,10 +6,66 @@ html {
     -ms-user-select: none;
     user-select: none;
 
+    font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+    font-size: 14px;
+    background-image: url("images\\bg (2).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #6788F7;
+}
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(to top, rgba(255, 0, 221, 0.3), rgba(0, 60, 255, 0.3));
+    color: black;
+    width: fit-content;
+    text-align: center;
+    border-radius: 25px;
+    padding: 1%;
+}
+
+header h1 {
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 150%;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* BODY */
+
+nav {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+.contacts {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 img {
     pointer-events: none;
 }
 
+/* FOOTER */
+
+footer div {
+    text-align: center;
+    font-size: 90%;
+    color: #6788F7;
+}
